@@ -1,6 +1,19 @@
-input[type="Button"]{width:80px; padding: 10px; background-color: aquamarine;text-align: center;}
-script scr
-input[type="Boton1"]{
-    width:80px;
-     padding: 20px;background-color: aquamarine;
-     text-align: center;}
+#Boton {
+    background-color: aquamarine;
+    color: black;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.borde-exterior {
+    font-weight: bold;
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: brown;
+    font-size: 25px;
+    width: 30px;
+}

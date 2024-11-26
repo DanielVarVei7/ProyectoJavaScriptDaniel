@@ -8,6 +8,7 @@ Boton.addEventListener=("Click",function(event){
     nuevoID.innerHTML="DIV creado";
     
     let contenido=document.getElementById("ResultadoDIV");
-    contenido.appendChild(nuevoID);
+    contenido.appendChild(nuevoID)
+    nuevoID.classList.add("borde-exterior");
 
 })
