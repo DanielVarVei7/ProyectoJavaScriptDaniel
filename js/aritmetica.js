@@ -24,6 +24,37 @@ function Restar() {
     if (dato1=="" || dato2==""){ alert("El campo está vacio.")}
     else { resultadototal.innerHTML="El Resultado es: " + resultadoresta;}
 
+
+}
+
+function Multiplicar() {
+
+    let dato1=document.getElementById("Numero1").value;
+    let dato2=document.getElementById("Numero2").value;
+    let resultadototal=document.getElementById("Resultado");
+    let resultadomultiplicacion=parseFloat(dato1)* parseFloat(dato2);
+
+    
+
+    if (dato1=="" || dato2==""){ alert("El campo está vacio.")}
+    else { resultadototal.innerHTML="El Resultado es: " + resultadomultiplicacion;}
+
+
+}
+
+function Dividir() {
+
+    let dato1=document.getElementById("Numero1").value;
+    let dato2=document.getElementById("Numero2").value;
+    let resultadototal=document.getElementById("Resultado");
+    let resultadodivision=parseFloat(dato1)/ parseFloat(dato2);
+
+    
+
+    if (dato1=="" || dato2==""){ alert("El campo está vacio.")}
+    else { resultadototal.innerHTML="El Resultado es: " + resultadodivision;}
+
+
 }
 
 
